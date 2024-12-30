@@ -1,0 +1,120 @@
+/* Popup Container */
+.popup {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+  }
+  
+  /* Popup Content */
+  .popup-content {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 400px;
+    max-height: 90%;
+    overflow-y: auto;
+  }
+  h2 {
+    color: #004e89;
+  }
+  
+  /* Close Button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: red;
+  }
+  
+  .close-button:hover {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Form Container */
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input Fields */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  textarea {
+    height: 200px;
+  }
+  
+  /* Submit Button */
+  button[type="submit"] {
+      background-color: #004e89;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 30px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #fff;
+    color: #004e89;
+    cursor: pointer;
+  }
+  
+  
+  /* Support for smaller screens */
+  
+  @media (max-width: 750px) {
+    .popup {
+      width: 100%;
+    }
+  
+    .popup-content {
+      width: 95%;
+      max-width: none;
+      height: auto;
+    }
+  
+    button[type="submit"] {
+      padding: 10px;
+    }
+  }
+  
+  /* Error message styling when validation has not been met */
+  .error-message {
+    color: red;
+    font-size: 15px;
+    margin: 10px;
+  }
+  
+  /* Mandatory styling for asterix */
+  .colored {
+    color: red;
+  }

@@ -1,0 +1,15 @@
+.success-message {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 400px;
+    max-height: 90%;
+    overflow-y: auto;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}

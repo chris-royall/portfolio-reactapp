@@ -1,0 +1,39 @@
+/* Badges Container */
+.secondary_badges-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Secondary Badges */
+  .secondary_badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 110px;
+    height: auto;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+}
+  
+  .secondary_badges img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .secondary_badges:hover {
+    transform: scale(1.1);
+  }
+  
+  .secondary_badges-container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }

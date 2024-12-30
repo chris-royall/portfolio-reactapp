@@ -1,0 +1,14 @@
+/* Footer */
+
+footer {
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px;
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
