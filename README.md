@@ -32,7 +32,7 @@ This project leverages the following technologies:
 
 Deployed at: [www.chrisroyall.com](https://www.chrisroyall.com)
 
-![Infrastructure Diagram](/public/assets/images/portfolio-infrastructure.png)
+![Infrastructure Diagram](/assets/images/portfolio-infrastructure.png)
 
 
 
