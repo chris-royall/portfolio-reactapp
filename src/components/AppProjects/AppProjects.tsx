@@ -62,6 +62,24 @@ const Projects: React.FC = () => {
           authentication, and includes advanced logging mechanisms.
         </p>
       </div>
+
+      <div className="inner-container">
+        <h2>AWS CloudFormation Deployed IAM Permissions</h2>
+        <div className="button-container">
+          <a
+            onClick={() => handleLinkClick('GitHub: AWS CloudFormation Deployed IAM Permissions')}
+            href="https://github.com/chris-royall/aws-iam-permissions"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>GitHub Repository</button>
+          </a>
+        </div>
+        <p>
+        This project demonstrates the use of AWS CloudFormation to managed IAM permissions for different teams within an organisation. It allows the creation and update IAM Groups and Policies. By leveraging Infrastructure as Code, the script ensures consistency and reduces the risks associated with manual configuration.
+        </p>
+      </div>
+
     </div>
   );
 };
