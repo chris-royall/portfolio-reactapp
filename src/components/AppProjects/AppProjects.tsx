@@ -80,6 +80,24 @@ const Projects: React.FC = () => {
         </p>
       </div>
 
+      <div className="inner-container">
+        <h2>Terraform-Deployed Scalable User Management Service</h2>
+        <div className="button-container">
+          <a
+            onClick={() => handleLinkClick('GitHub: Terraform-Deployed Scalable User Management Service')}
+            href="https://github.com/chris-royall/serverless-user-management"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>GitHub Repository</button>
+          </a>
+        </div>
+        <p>
+        This project creates infrastructure using IaC Terraform to build a User Management Service. This service demonstrates how to deploy a scalable and serverless backend for managing user data using AWS services. It serves as an example of leveraging AWS Lambda, API Gateway, and DynamoDB in a serverless architecture.
+        </p>
+      </div>
+
+
     </div>
   );
 };
