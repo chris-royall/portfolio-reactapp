@@ -11,33 +11,33 @@ const Projects: React.FC = () => {
   return (
     <div className="container">
       <div className="inner-container">
-        <h2>Angular Web Application</h2>
+        <h2>Portfolio Website (React + AWS CloudFormation)</h2>
         <div className="button-container">
           <a
-            onClick={() => handleLinkClick('GitHub: Angular Web Application')}
-            href="https://github.com/chris-royall/portfolio"
+            onClick={() => handleLinkClick('GitHub: Portfolio React Frontend')}
+            href="https://github.com/chris-royall/portfolio-reactapp"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button>GitHub Repository</button>
+            <button>Frontend Repository</button>
           </a>
           <a
-            onClick={() => handleLinkClick('Web Application: Angular Web Application')}
-            href="https://chrisroyall.com/"
+            onClick={() => handleLinkClick('GitHub: Portfolio CloudFormation Backend')}
+            href="https://github.com/chris-royall/portfolio-cloudformation"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button>Web Application</button>
+            <button>Backend Repository</button>
           </a>
         </div>
         <p>
-          This repository showcases my skills in front-end development and AWS cloud services by implementing a
-          functional web application with advanced logging, email automation, and data retention strategies.
+          Full-stack portfolio with React frontend and AWS CloudFormation backend. Features API Gateway, 
+          Lambda functions, SES email services, and analytics via CloudWatch and Kinesis.
         </p>
       </div>
 
       <div className="inner-container">
-        <h2>AI Recipe Generator</h2>
+        <h2>AI-Powered Applications</h2>
         <div className="button-container">
           <a
             onClick={() => handleLinkClick('GitHub: AI Recipe Generator')}
@@ -45,21 +45,20 @@ const Projects: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button>GitHub Repository</button>
+            <button>Recipe Generator Repository</button>
           </a>
           <a
-            onClick={() => handleLinkClick('Web Application: AI Recipe Generator')}
-            href="https://recipes.chrisroyall.com/"
+            onClick={() => handleLinkClick('GitHub: AI Race Strategy Predictor')}
+            href="https://github.com/chris-royall/ai-race-strat-predictor"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button>Web Application</button>
+            <button>Race Strategy Repository</button>
           </a>
         </div>
         <p>
-          This repository highlights my experience in front-end development and AWS cloud services through the creation of
-          a functional, AI-powered web application. The app generates recipes based on user inputs, features secure user
-          authentication, and includes advanced logging mechanisms.
+          AI applications including a recipe generator with personalized recommendations and a race strategy 
+          predictor for motorsport competitions that optimizes pit stops and tire choices.
         </p>
       </div>
 
@@ -76,7 +75,8 @@ const Projects: React.FC = () => {
           </a>
         </div>
         <p>
-        This project demonstrates the use of AWS CloudFormation to managed IAM permissions for different teams within an organisation. It allows the creation and update IAM Groups and Policies. By leveraging Infrastructure as Code, the script ensures consistency and reduces the risks associated with manual configuration.
+          CloudFormation templates for managing IAM permissions across teams. Implements Infrastructure as Code 
+          for consistent and secure access management.
         </p>
       </div>
 
@@ -93,11 +93,10 @@ const Projects: React.FC = () => {
           </a>
         </div>
         <p>
-        This project creates infrastructure using IaC Terraform to build a User Management Service. This service demonstrates how to deploy a scalable and serverless backend for managing user data using AWS services. It serves as an example of leveraging AWS Lambda, API Gateway, and DynamoDB in a serverless architecture.
+          Serverless user management system built with Terraform IaC. Demonstrates scalable architecture using 
+          AWS Lambda, API Gateway, and DynamoDB.
         </p>
       </div>
-
-
     </div>
   );
 };
