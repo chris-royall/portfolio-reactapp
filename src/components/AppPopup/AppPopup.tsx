@@ -49,7 +49,7 @@ const AppPopup: React.FC<PopupProps> = ({ closePopup }) => {
   
     try {
       // Make API POST request
-      const response = await fetch('https://9h3992v7k1.execute-api.eu-west-2.amazonaws.com/default/ContactForm', {
+      const response = await fetch('https://api.chrisroyall.com/v1-local/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
