@@ -49,7 +49,7 @@ const AppPopup: React.FC<PopupProps> = ({ closePopup }) => {
   
     try {
       // Make API POST request
-      const response = await fetch('https://api.chrisroyall.com/v1-local/contact', {
+      const response = await fetch('https://api.chrisroyall.com/v1-prod/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
