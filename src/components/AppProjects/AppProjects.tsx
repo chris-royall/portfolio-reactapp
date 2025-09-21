@@ -22,7 +22,6 @@ const Projects: React.FC = () => {
           <span className="tech-tag aws">Lambda</span>
           <span className="tech-tag aws">SES</span>
           <span className="tech-tag aws">CloudWatch</span>
-          <span className="tech-tag aws">Kinesis</span>
         </div>
         <p>Full-stack portfolio with React frontend and AWS CloudFormation backend. Features API Gateway, Lambda functions, SES email services, and analytics via CloudWatch and Kinesis.</p>
         <div className="button-container">
