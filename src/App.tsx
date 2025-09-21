@@ -1,5 +1,7 @@
+import { useEffect } from 'react';
 import { usePopupControl } from './services/popup-control.service';
 import { useSlideOutControl } from './services/slide-out.service';
+import { LoggingService } from './services/logging.service';
 import AppNavbar from './components/AppNavbar/AppNavbar';
 import AppPopup from './components/AppPopup/AppPopup';
 import AppSlideOutPanel from './components/AppSlideOutPanel/AppSlideOutPanel';
@@ -16,6 +18,10 @@ const App = () => {
   } = usePopupControl();
 
   const { showSlideOut, toggleSlideOutHandler, closeSlideOutHandler } = useSlideOutControl();
+
+  useEffect(() => {
+    LoggingService('Page Loaded');
+  }, []);
 
   return (
     <>
