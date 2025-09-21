@@ -21,6 +21,31 @@
     margin: 10px;
 }
 
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.tech-tag {
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
+.tech-tag.react { background-color: #61dafb; color: #000; }
+.tech-tag.terraform { background-color: #623ce4; }
+.tech-tag.aws { background-color: #ff9900; }
+.tech-tag.python { background-color: #3776ab; }
+.tech-tag.javascript { background-color: #f7df1e; color: #000; }
+.tech-tag.typescript { background-color: #007acc; }
+.tech-tag.graphql { background-color: #e10098; }
+
 .button-container {
     display: flex;
     flex-direction: column;
