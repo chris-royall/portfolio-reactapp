@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
           <span className="tech-tag aws">SES</span>
           <span className="tech-tag aws">CloudWatch</span>
         </div>
-        <p>Full-stack portfolio with React frontend and AWS CloudFormation backend. Features API Gateway, Lambda functions, SES email services, and analytics via CloudWatch and Kinesis.</p>
+        <p>Full-stack portfolio with React frontend and AWS CloudFormation backend. Features API Gateway, Lambda functions, SES email services, and analytics via CloudWatch.</p>
         <div className="button-container">
           <a onClick={() => handleLinkClick('GitHub: Portfolio React Frontend')} href="https://github.com/chris-royall/portfolio-reactapp" target="_blank" rel="noopener noreferrer">
             <button>Frontend Repository</button>
