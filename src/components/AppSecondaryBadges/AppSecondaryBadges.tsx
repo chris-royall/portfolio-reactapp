@@ -6,6 +6,12 @@ const SecondaryBadgesComponent: React.FC = () => {
   const badges = [
     {
       alt: 'aws-cloud-quest-cloud-practitioner',
+      src: '/assets/images/secondary_badges/d2d24d56-8a55-4923-9959-0b3cf400f224.png',
+      url: 'https://credentials.databricks.com/8ee0e5f3-406f-4d66-9793-77735bef19a1#acc.PHMtcbah',
+      label: 'Badge: databricks-generative-ai-fundamentals',
+    },
+    {
+      alt: 'aws-cloud-quest-cloud-practitioner',
       src: '/assets/images/secondary_badges/aws-cloud-quest-cloud-practitioner.png',
       url: 'https://www.credly.com/badges/a41964c2-fa5e-4a70-9679-f54e1716f80d/public_url',
       label: 'Badge: aws-cloud-quest-cloud-practitioner',

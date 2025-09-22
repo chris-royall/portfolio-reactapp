@@ -6,7 +6,7 @@ export const LoggingService = async (buttonClicked: string): Promise<void> => {
 
   try {
     // Make API POST request
-    const response = await fetch('https://api.chrisroyall.com/v1-prod/link', {
+    const response = await fetch('https://api.chrisroyall.com/v1-local/link', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
