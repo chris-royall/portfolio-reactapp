@@ -5,7 +5,7 @@ import './AppSecondaryBadges.css';
 const SecondaryBadgesComponent: React.FC = () => {
   const badges = [
     {
-      alt: 'aws-cloud-quest-cloud-practitioner',
+      alt: 'databricks-generative-ai-fundamentals',
       src: '/assets/images/secondary_badges/d2d24d56-8a55-4923-9959-0b3cf400f224.png',
       url: 'https://credentials.databricks.com/8ee0e5f3-406f-4d66-9793-77735bef19a1#acc.PHMtcbah',
       label: 'Badge: databricks-generative-ai-fundamentals',
