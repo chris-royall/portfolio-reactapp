@@ -50,6 +50,18 @@ const SlideOutPanel: React.FC<SlideOutPanel> = ({ closeSlideOut }) => {
           <i className="fa-solid fa-square-check"></i>&nbsp;Credly
         </a>
       </div>
+
+            <div className="button-row">
+        <a
+          href="https://skillsprofile.skillbuilder.aws/user/chrisroyall"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => handleLinkClick('Slide Out: AWS')}
+        >
+          <i className="fa-brands fa-aws"></i>&nbsp;AWS
+        </a>
+      </div>
+
     </div>
   );
 };
