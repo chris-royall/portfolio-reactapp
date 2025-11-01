@@ -8,7 +8,7 @@ The backend infrastructure for this portfolio is available at [https://github.co
 
 This portfolio website serves as a professional showcase of my work, skills, and experience. It features:
 
-- Project gallery with descriptions and links to live demos/repositories
+- Dynamic project gallery descriptions, technologies, and repositories links
 - Contact form for professional inquiries
 - Responsive design that works seamlessly across all devices
 
@@ -16,4 +16,3 @@ This portfolio website serves as a professional showcase of my work, skills, and
 
 - React frontend
 - CSS for styling
-- Communicates with a backend API for dynamic content
