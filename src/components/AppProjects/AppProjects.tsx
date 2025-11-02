@@ -5,11 +5,14 @@ import './AppProjects.css';
 
 const Projects: React.FC = () => {
   const [projects, setProjects] = useState<Project[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
     const loadProjects = async () => {
+      setLoading(true);
       const data = await fetchProjects();
       setProjects(data);
+      setLoading(false);
     };
     loadProjects();
   }, []);
@@ -56,6 +59,14 @@ const Projects: React.FC = () => {
       </div>
     </div>
   );
+
+  if (loading) {
+    return (
+      <div className="container">
+        <div className="loader"></div>
+      </div>
+    );
+  }
 
   return (
     <div className="container">
