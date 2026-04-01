@@ -23,7 +23,7 @@ const Navbar: React.FC<NavbarProps> = ({ togglePopup, toggleSlideOut }) => {
   
       {/* Website Name */}
       <div className="navbar-brand" onClick={() => handleLinkClick('Privacy Policy')}>
-        Claude Test
+        Chris Royall
       </div>
   
       {/* Hamburger Button */}
