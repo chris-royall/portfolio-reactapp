@@ -20,7 +20,7 @@ describe('AppNavbar', () => {
 
   it('renders the site name', () => {
     render(<Navbar togglePopup={togglePopup} toggleSlideOut={toggleSlideOut} />);
-    expect(screen.getByText('Claude Test')).toBeInTheDocument();
+    expect(screen.getByText('Chris Royall')).toBeInTheDocument();
   });
 
   it('renders the Contact button', () => {
